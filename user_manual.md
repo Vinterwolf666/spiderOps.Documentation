@@ -14,7 +14,7 @@ This manual guides you step-by-step through the process of registering, logging 
 📷 Image of registration option
 
 [Registration option](assets/images/r1.png)
-
+[Registration option](assets/images/r1.png)
 
 ---
 
@@ -24,10 +24,10 @@ This manual guides you step-by-step through the process of registering, logging 
 2. Enter your email and password.
 3. Click on **Login**.
 
-📷 _Insert image of login screen here_
-```
-![Login](path/to/login-image.png)
-```
+📷 Image of login screen here
+
+[Login option](assets/images/r1.png)
+
 
 ---
 
