@@ -12,9 +12,9 @@ This manual guides you step-by-step through the process of registering, logging 
 3. Click on **Register**.
 
 📷 Image of registration option
-```
+
 [Registration option](assets/images/r1.png)
-```
+
 
 ---
 
