@@ -103,6 +103,19 @@ Example of a deployed app
 [Deployed App example](assets/images/d.21.png)
 
 
+## 7. 🌐 Monitoring Your Application 
+
+1. Once the deployment is finished, go to the **Monitoring option**.
+2. Once here you can see all the monitoring logs.
+
+
+📷 Image of monitoring app section 
+
+[Access App](assets/images/m.1.png)
+
+---
+
+
 ## ✅ Tips
 
 - Ensure your GitHub repository is public or that you've linked your GitHub account with valid tokens.
