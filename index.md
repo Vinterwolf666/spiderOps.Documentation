@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Welcome to SpiderOps
+# Welcome to SpiderOps Documentation
 
 Please take a look to the following documentation
 
