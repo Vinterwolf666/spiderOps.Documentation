@@ -5,82 +5,82 @@ sidebar_position: 3
 
 # `CustomersController`
 
-Ruta base: `/Customer.Identity.Microservice.Customers.API/Customers`
+Base route: `/Customer.Identity.Microservice.Customers.API/Customers`
 
 ## `GET /AllCustomers`
 
-Obtiene todos los clientes registrados en la plataforma.
+Retrieves all customers from the system.
 
-**Response:**
-- `200 OK`: Lista de objetos `Customers`.
-- `400 Bad Request`: Error al obtener la lista.
+**Responses:**
+- `200 OK`: List of all registered customers.
+- `400 Bad Request`: Error retrieving customers.
 
 ---
 
 ## `GET /AllCustomerInfoByID?id={id}`
 
-Consulta la información detallada de un cliente.  
-🔒 Requiere autorización (JWT).
+Returns detailed information about a specific customer.  
+🔒 Requires Authorization.
 
 **Query Parameters:**
-- `id` (integer): ID del cliente.
+- `id` (integer): Customer ID.
 
-**Response:**
-- `200 OK`: Objeto `Customers`.
-- `400 Bad Request`: Cliente no encontrado.
-- `401 Unauthorized`: Token inválido o ausente.
+**Responses:**
+- `200 OK`: Customer data.
+- `400 Bad Request`: Invalid or non-existent ID.
+- `401 Unauthorized`: Token is missing or invalid.
 
 ---
 
 ## `DELETE /deleteAnAccount?id={id}`
 
-Elimina la cuenta del cliente.  
-🔒 Requiere autorización.
+Deletes a customer account.  
+🔒 Requires Authorization.
 
 **Query Parameters:**
-- `id` (integer): ID del cliente.
+- `id` (integer): Customer ID.
 
-**Response:**
-- `200 OK`: Confirmación de eliminación.
-- `400 Bad Request`: Error al eliminar.
+**Responses:**
+- `200 OK`: Account successfully deleted.
+- `400 Bad Request`: Error during deletion process.
 
 ---
 
 ## `POST /newCustomer`
 
-Crea un nuevo cliente y notifica el proceso por RabbitMQ.  
-🔒 Requiere autorización.
+Creates a new customer account and sends a message via RabbitMQ.  
+🔒 Requires Authorization.
 
-**Body:**
+**Request Body:**
 ```json
 {
-  "email": "usuario@correo.com",
-  "password": "123456",
-  "firstname": "Juan",
-  "lastname": "Castro"
+  "email": "user@example.com",
+  "password": "securepassword",
+  "firstname": "John",
+  "lastname": "Doe"
 }
 ```
 
-**Response:**
-- `200 OK`: Cliente creado exitosamente.
-- `400 Bad Request`: Error al crear la cuenta.
+**Responses:**
+- `200 OK`: Account created successfully.
+- `400 Bad Request`: Failed to create account.
 
 ---
 
 ## `PUT /updateAnAccount`
 
-Actualiza los datos de un cliente existente.  
-🔒 Requiere autorización.
+Updates an existing customer's information.  
+🔒 Requires Authorization.
 
-**Body:**
+**Request Body:**
 ```json
 {
   "id": 1,
-  "email": "nuevo@correo.com",
-  "firstname": "Juan"
+  "email": "updated@example.com",
+  "firstname": "John"
 }
 ```
 
-**Response:**
-- `200 OK`: Cliente actualizado correctamente.
-- `400 Bad Request`: Error al actualizar datos.
+**Responses:**
+- `200 OK`: Account updated successfully.
+- `400 Bad Request`: Update failed.
