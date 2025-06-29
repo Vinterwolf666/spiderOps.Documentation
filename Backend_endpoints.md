@@ -3,7 +3,7 @@ title: CustomerLogInController
 sidebar_position: 1
 ---
 
-# `CustomerLogInController`                                                                         [Ver CustomerLogOutController](customerlogout-controller.md)
+# `CustomerLogInController`    
 
 Ruta base: `/CustomerLogIn.API/CustomerLogIn`
 
@@ -48,3 +48,8 @@ Solicita recuperación de contraseña y envía la solicitud por RabbitMQ.
 **Response:**
 - `200 OK`: Resultado de la solicitud.
 - `400 Bad Request`: Si el correo no está registrado.
+
+
+
+[Ver CustomerLogOutController](customer-logout-controller.md)
+
