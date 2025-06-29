@@ -17,12 +17,12 @@ Handles customer login, logout, account creation, update and password recovery.
 ## 🗂️ Data Microservice
 
 Manages user personal data, addresses and contact details.
-> *[Documentation link pending]*
+- [Customers Data ](data-controller.md)
 
 ## 🔔 Notifications Microservice
 
 Handles asynchronous email and message delivery via message queues.
-> *[Documentation link pending]*
+- [Notify](notify-controller.md)
 
 ## 🚀 Application Deployments
 
