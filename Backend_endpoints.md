@@ -27,12 +27,12 @@ Handles asynchronous email and message delivery via message queues.
 ## 🚀 Application Deployments
 
 Triggers cloud deployments for containerized applications on GKE.
-> *[Documentation link pending]*
+- [Deploy](deployments-controller.md)
 
 ## ⚙️ Pipeline Configuration
 
 Allows uploading, refining and managing GitHub Actions YAML pipelines.
-> *[Documentation link pending]*
+- [pipelines](pipelines-controller.md)
 
 ## 📊 Monitoring Deployments
 
