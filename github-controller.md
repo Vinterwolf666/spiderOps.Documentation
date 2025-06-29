@@ -1,6 +1,6 @@
 
 ---
-title: Deployment.Github.Controller
+title: DeploymentGithubController
 sidebar_position: 11
 ---
 
