@@ -55,7 +55,7 @@ use the following option to link to GitHub, and after return to the SpiderOps pl
 1. Enter the necessary fields such as:
     - Application name
     - GitHub repository link
-    - Environment type (e.g., production, staging)
+    - Infraestructure type (e.g., standard)
 2. Click on **Deploy**.
 
 📷 Image of deployment form 
