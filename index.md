@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: SpiderOps Docs
 ---
 
 # Welcome to SpiderOps Documentation
