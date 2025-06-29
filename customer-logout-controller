@@ -1,0 +1,33 @@
+---
+title: CustomerLogOutController
+sidebar_position: 2
+---
+
+# `CustomerLogOutController`
+
+Ruta base: `/CustomerLogOut/CustomerLogOut`
+
+## `POST /LogOut?id={id}&token={token}`
+
+Cierra la sesión de un cliente y registra el evento.
+
+**Query Parameters:**
+- `id` (integer): ID del cliente.
+- `token` (string): Token de sesión del usuario.
+
+**Response:**
+- `200 OK`: Resultado de cierre de sesión.
+- `400 Bad Request`: Error al cerrar sesión o token inválido.
+
+---
+
+## `POST /AllLogOutsByCustomerId?id={id}`
+
+Consulta todos los registros de cierre de sesión del cliente.
+
+**Query Parameters:**
+- `id` (integer): ID del cliente.
+
+**Response:**
+- `200 OK`: Lista de objetos `CustomerLogOut`.
+- `400 Bad Request`: Error al consultar.
