@@ -69,10 +69,13 @@ This manual guides you step-by-step through the process of registering, logging 
 - The deployment process takes approximately **15 minutes**.
 - You may monitor logs or a progress bar if available.
 
-📷 _Insert image showing progress/loading status here_
-```
-![Deployment Progress](path/to/deployment-progress.png)
-```
+📷 Image showing progress/loading status here
+
+[Deployment Progress step 1](assets/images/d1.16.png)
+
+[Deployment Progress step 2](assets/images/d1.17.png)
+
+[Deployment Progress step 1](assets/images/d1.18.png)
 
 ---
 
@@ -82,10 +85,9 @@ This manual guides you step-by-step through the process of registering, logging 
 2. Copy the provided URL and open it in your browser.
 3. You should see your application running.
 
-📷 _Insert image of access page or load balancer info here_
-```
-![Access App](path/to/load-balancer-image.png)
-```
+📷 Image of access to the app's load balancer 
+
+[Access App](assets/images/d1.19.png)
 
 ---
 
