@@ -42,6 +42,12 @@ This manual guides you step-by-step through the process of registering, logging 
 
 [Deployment Section](assets/images/d1.1.png)
 
+
+Extra: if you want to deploy the app and create an automatic repo in your GitHub account, please
+use the following option to link to GitHub, and after return to the SpiderOps platform and finish the deployment.
+
+[Deployment Section using GitHub linked account](assets/images/d.20.png)
+
 ---
 
 ## 4. 🧾 Fill Out Deployment Form
