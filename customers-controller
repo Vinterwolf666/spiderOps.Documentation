@@ -1,0 +1,86 @@
+---
+title: CustomersController
+sidebar_position: 3
+---
+
+# `CustomersController`
+
+Ruta base: `/Customer.Identity.Microservice.Customers.API/Customers`
+
+## `GET /AllCustomers`
+
+Obtiene todos los clientes registrados en la plataforma.
+
+**Response:**
+- `200 OK`: Lista de objetos `Customers`.
+- `400 Bad Request`: Error al obtener la lista.
+
+---
+
+## `GET /AllCustomerInfoByID?id={id}`
+
+Consulta la información detallada de un cliente.  
+🔒 Requiere autorización (JWT).
+
+**Query Parameters:**
+- `id` (integer): ID del cliente.
+
+**Response:**
+- `200 OK`: Objeto `Customers`.
+- `400 Bad Request`: Cliente no encontrado.
+- `401 Unauthorized`: Token inválido o ausente.
+
+---
+
+## `DELETE /deleteAnAccount?id={id}`
+
+Elimina la cuenta del cliente.  
+🔒 Requiere autorización.
+
+**Query Parameters:**
+- `id` (integer): ID del cliente.
+
+**Response:**
+- `200 OK`: Confirmación de eliminación.
+- `400 Bad Request`: Error al eliminar.
+
+---
+
+## `POST /newCustomer`
+
+Crea un nuevo cliente y notifica el proceso por RabbitMQ.  
+🔒 Requiere autorización.
+
+**Body:**
+```json
+{
+  "email": "usuario@correo.com",
+  "password": "123456",
+  "firstname": "Juan",
+  "lastname": "Castro"
+}
+```
+
+**Response:**
+- `200 OK`: Cliente creado exitosamente.
+- `400 Bad Request`: Error al crear la cuenta.
+
+---
+
+## `PUT /updateAnAccount`
+
+Actualiza los datos de un cliente existente.  
+🔒 Requiere autorización.
+
+**Body:**
+```json
+{
+  "id": 1,
+  "email": "nuevo@correo.com",
+  "firstname": "Juan"
+}
+```
+
+**Response:**
+- `200 OK`: Cliente actualizado correctamente.
+- `400 Bad Request`: Error al actualizar datos.
