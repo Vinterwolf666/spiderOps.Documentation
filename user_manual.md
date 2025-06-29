@@ -60,7 +60,7 @@ This manual guides you step-by-step through the process of registering, logging 
 
 [Deployment Form step 3](assets/images/d1.4.png)
 
-[Deployment Form step 4](assets/images/d1.15.png)
+[Deployment Form step 4](assets/images/d.15.png)
 
 ---
 
@@ -71,11 +71,11 @@ This manual guides you step-by-step through the process of registering, logging 
 
 📷 Image showing progress/loading status here
 
-[Deployment Progress step 1](assets/images/d1.16.png)
+[Deployment Progress step 1](assets/images/d.16.png)
 
-[Deployment Progress step 2](assets/images/d1.17.png)
+[Deployment Progress step 2](assets/images/d.17.png)
 
-[Deployment Progress step 1](assets/images/d1.18.png)
+[Deployment Progress step 1](assets/images/d.18.png)
 
 ---
 
@@ -87,7 +87,7 @@ This manual guides you step-by-step through the process of registering, logging 
 
 📷 Image of access to the app's load balancer 
 
-[Access App](assets/images/d1.19.png)
+[Access App](assets/images/d.19.png)
 
 ---
 
