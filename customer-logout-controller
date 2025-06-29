@@ -5,29 +5,29 @@ sidebar_position: 2
 
 # `CustomerLogOutController`
 
-Ruta base: `/CustomerLogOut/CustomerLogOut`
+Base route: `/CustomerLogOut/CustomerLogOut`
 
 ## `POST /LogOut?id={id}&token={token}`
 
-Cierra la sesión de un cliente y registra el evento.
+Logs a customer out of the system and invalidates their session.
 
 **Query Parameters:**
-- `id` (integer): ID del cliente.
-- `token` (string): Token de sesión del usuario.
+- `id` (integer): Customer ID.
+- `token` (string): Session token.
 
-**Response:**
-- `200 OK`: Resultado de cierre de sesión.
-- `400 Bad Request`: Error al cerrar sesión o token inválido.
+**Responses:**
+- `200 OK`: Successfully logged out.
+- `400 Bad Request`: Error processing the logout.
 
 ---
 
 ## `POST /AllLogOutsByCustomerId?id={id}`
 
-Consulta todos los registros de cierre de sesión del cliente.
+Fetches all logout entries for a specific customer.
 
 **Query Parameters:**
-- `id` (integer): ID del cliente.
+- `id` (integer): Customer ID.
 
-**Response:**
-- `200 OK`: Lista de objetos `CustomerLogOut`.
-- `400 Bad Request`: Error al consultar.
+**Responses:**
+- `200 OK`: List of logout records.
+- `400 Bad Request`: Error retrieving data.
