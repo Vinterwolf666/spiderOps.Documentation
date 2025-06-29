@@ -111,7 +111,38 @@ Example of a deployed app
 
 📷 Image of monitoring app section 
 
-[Access App](assets/images/m.1.png)
+[Monitoring App Logs](assets/images/m.1.png)
+
+---
+
+
+## 8. 🌐 Review The Quality of Your Application 
+
+1. Once the deployment is finished, go to the **Quality option**.
+2. Once here you can see all the quality metrics of each deployed apps.
+
+
+📷 Image of quality app section 
+
+[Quality of Apps](assets/images/q.1.png)
+
+[Quality of Apps](assets/images/q.2.png)
+
+[Quality of Apps](assets/images/q.3.png)
+
+---
+
+## 8. 🌐 Review The Security of Your Application 
+
+1. Once the deployment is finished, go to the **Security option**.
+2. Once here you can see all the security metrics, the scores ranges are from 0 to 100 points for fiability and security metrics.
+
+
+📷 Image of security app section 
+
+[Security of Apps](assets/images/s.1.png)
+
+
 
 ---
 
