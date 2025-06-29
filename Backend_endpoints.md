@@ -28,6 +28,7 @@ Handles asynchronous email and message delivery via message queues.
 
 Triggers cloud deployments for containerized applications on GKE.
 - [Deploy](deployments-controller.md)
+- [Github deploy](github-controller.md)
 
 ## ⚙️ Pipeline Configuration
 
@@ -37,23 +38,24 @@ Allows uploading, refining and managing GitHub Actions YAML pipelines.
 ## 📊 Monitoring Deployments
 
 Retrieves real-time performance metrics for deployed applications using GCP Monitoring.
-> *[Documentation link pending]*
+- [monitoring](monitoring-controller.md)
 
 ## 🧪 Deployments Quality
 
 Fetches code quality metrics such as coverage, bugs, vulnerabilities from SonarCloud.
-> *[Documentation link pending]*
+- [quality](quality-controller.md)
 
 ## 🔐 Deployments Security
 
 Scans for exposed secrets and dependency vulnerabilities using Gitleaks and other tools.
-> *[Documentation link pending]*
+- [security](security-controller.md)
 
-## 🧩 Extra Microservices Used
+## 🧩 Extra Microservices/APIs or tech Used
 
 - 📫 RabbitMQ: For internal messaging and notifications.
 - ☁️ Google Cloud APIs: For interacting with GKE, Artifact Registry, and IAM.
 - 🧠 OpenAI: To refine CI/CD pipeline definitions with AI assistance.
+  
 
 ---
 
