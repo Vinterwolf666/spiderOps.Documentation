@@ -1,8 +1,10 @@
 
-# GitHub Integration API
+---
+title: Deployment.Github.Controller
+sidebar_position: 11
+---
 
-This API provides endpoints to integrate with GitHub for token retrieval, repository creation, secret management, and account linking. All routes are prefixed with `/github`.
-
+# `DeploymentGithubController`
 ---
 
 ## 📌 Base Route
