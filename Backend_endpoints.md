@@ -10,9 +10,9 @@ Welcome to the documentation for the backend microservices powering the platform
 ## 🔐 Identity & Authentication Microservice
 
 Handles customer login, logout, account creation, update and password recovery.
-- [Customer Login Controller](customer-login-controller.md)
-- [Customer Logout Controller](customer-logout-controller.md)
-- [Customers Controller](customers-controller.md)
+- [Customer Login ](customer-login-controller.md)
+- [Customer Logout ](customer-logout-controller.md)
+- [Customers ](customers-controller.md)
 
 ## 🗂️ Data Microservice
 
