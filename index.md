@@ -1,13 +1,14 @@
 ---
-layout: default
+layout: SpiderOps: Documentation
 ---
 
-# Bienvenido
+# Welcome
 
-Documentación técnica de mi proyecto.
+Please take a look to the following documentation
 
-## Secciones
+## Docs sections
 
-- Instalación
-- Guía de uso
-- API Reference
+- [Architecture](Architecture.md)
+- [Backend Endpoints](Backend%20endpoints.md)
+- Customers manual
+
