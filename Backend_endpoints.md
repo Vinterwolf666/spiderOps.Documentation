@@ -3,7 +3,7 @@ title: CustomerLogInController
 sidebar_position: 1
 ---
 
-# `CustomerLogInController`
+# `CustomerLogInController`                                                                         [Ver CustomerLogOutController](customerlogout-controller.md)
 
 Ruta base: `/CustomerLogIn.API/CustomerLogIn`
 
