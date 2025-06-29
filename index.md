@@ -10,5 +10,5 @@ Please take a look to the following documentation
 
 - [Architecture](Architecture.md)
 - [Backend Endpoints](Backend_endpoints.md)
-- Customers manual
+- [Customers manual](user_manual.md)
 
