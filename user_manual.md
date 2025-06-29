@@ -13,7 +13,7 @@ This manual guides you step-by-step through the process of registering, logging 
 
 📷 Image of registration option
 ```
-![Registration Form](r1.png)
+[Registration option](assets/images/r1.png)
 ```
 
 ---
