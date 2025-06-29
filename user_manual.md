@@ -26,7 +26,7 @@ This manual guides you step-by-step through the process of registering, logging 
 
 📷 Image of login screen here
 
-[Login option](assets/images/r1.png)
+[Login option](assets/images/r1.1.png)
 
 
 ---
@@ -36,10 +36,11 @@ This manual guides you step-by-step through the process of registering, logging 
 1. Once logged in, navigate to the **Deploy** section from the main menu or dashboard.
 2. Click on **New Deployment** or **Start Deployment**.
 
-📷 _Insert image of deployment section here_
-```
-![Deployment Section](path/to/deploy-section-image.png)
-```
+📷 Image of deployment section 
+
+[Deployment Section](assets/images/d1.png)
+
+[Deployment Section](assets/images/d1.1.png)
 
 ---
 
@@ -51,10 +52,15 @@ This manual guides you step-by-step through the process of registering, logging 
     - Environment type (e.g., production, staging)
 2. Click on **Deploy**.
 
-📷 _Insert image of deployment form here_
-```
-![Deployment Form](path/to/deployment-form-image.png)
-```
+📷 Image of deployment form 
+
+[Deployment Form step 1](assets/images/d1.2.png)
+
+[Deployment Form step 2](assets/images/d1.3.png)
+
+[Deployment Form step 3](assets/images/d1.4.png)
+
+[Deployment Form step 4](assets/images/d1.15.png)
 
 ---
 
