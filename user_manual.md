@@ -97,6 +97,12 @@ use the following option to link to GitHub, and after return to the SpiderOps pl
 
 ---
 
+
+Example of a deployed app
+
+[Deployed App example](assets/images/d.21.png)
+
+
 ## ✅ Tips
 
 - Ensure your GitHub repository is public or that you've linked your GitHub account with valid tokens.
